@@ -1,0 +1,51 @@
+header {
+    max-height: 94px;
+    width: 100%;
+    display: flex;
+
+    .header_left_block {
+        min-height: 90px;
+        width: 12vw;
+        display: flex;
+        gap: 1.2vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_central_block {
+        width:88vw;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1vw;
+
+        //блок, в котором блок с input//
+        .header_central_block_search {
+            display: flex;
+            align-items: center;
+            //Блок, в котором находится input//          
+            .search_block {
+                border-radius: 15px;
+                background-color: #EBEBEB;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 45vw;
+                input{
+                    width: 90%;
+                    min-height: 44px; 
+                    border:none;
+                    background-color: #EBEBEB;
+                };
+            }
+        }
+
+        .header_right_block {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 1vw;
+            gap: 2vw;
+        }
+    }
+}

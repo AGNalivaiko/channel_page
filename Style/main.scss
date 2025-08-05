@@ -1,0 +1,14 @@
+@import "header";
+@import "center";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    max-width: 1920px;
+    max-height: 1200px;
+    border: 1px solid black;
+}
