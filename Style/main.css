@@ -88,7 +88,7 @@ main {
   width: 88vw;
 }
 main .main_cover {
-  min-height: 280px;
+  height: 23vh;
   background-image: url("/pic/Cover.jpg");
   background-size: cover;
   margin-right: 4vw;
@@ -99,14 +99,11 @@ main .main_discribeChannel {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 2.5vh;
+  padding-top: 2%;
 }
 main .main_discribeChannel .channel_avatar {
   display: flex;
   align-items: center;
-}
-main .main_discribeChannel .channel_avatar .channel_pic {
-  padding-left: 0.5vw;
 }
 main .main_discribeChannel .channel_avatar h2 {
   font-size: 26px;

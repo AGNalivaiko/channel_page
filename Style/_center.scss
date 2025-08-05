@@ -31,8 +31,8 @@ main {
     width: 88vw;
     
     .main_cover {
-        min-height: 280px;
-        background: {image: url("/pic/Cover.jpg"); size: cover; };
+        height: 23vh;
+        background: {image: url("/pic/Cover.jpg"); size: cover};
         margin-right: 4vw;
     }
     .main_discribeChannel{
@@ -41,11 +41,10 @@ main {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        padding-top: 2.5vh;
+        padding-top: 2%;
         .channel_avatar{
             display: flex; 
             align-items: center;
-            .channel_pic{padding-left: 0.5vw;};
             h2{font-size: 26px;};
             p{font-size: 13px; opacity: 0.5;};
         };
