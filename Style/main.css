@@ -105,6 +105,9 @@ main .main_discribeChannel .channel_avatar {
   display: flex;
   align-items: center;
 }
+main .main_discribeChannel .channel_avatar .channel_pic {
+  margin-left: 0.5vw;
+}
 main .main_discribeChannel .channel_avatar h2 {
   font-size: 26px;
 }

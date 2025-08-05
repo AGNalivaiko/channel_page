@@ -45,6 +45,7 @@ main {
         .channel_avatar{
             display: flex; 
             align-items: center;
+            .channel_pic{margin-left: 0.5vw;}
             h2{font-size: 26px;};
             p{font-size: 13px; opacity: 0.5;};
         };
