@@ -27,16 +27,14 @@ aside {
 }
 
 main {
-    border: 1px solid purple;
     width: 88vw;
     
     .main_cover {
-        height: 23vh;
-        background: {image: url("/pic/Cover.jpg"); size: cover};
+        width: 100%;
+        img {width: 83vw; height: auto; min-height: 100px;}
         margin-right: 4vw;
     }
     .main_discribeChannel{
-        border: 1px solid black;
         margin-right: 4vw;
         display: flex;
         justify-content: space-between;
@@ -58,7 +56,6 @@ main {
     .main_navigation {
         display: flex;
         justify-content: space-between;
-        border: 1px solid green;
         width: 53%;
         margin-top: 2vh;
         p{font-size: 18px;};
@@ -72,7 +69,6 @@ main {
 
         .blue_video {
             display: flex;
-            border: 1px solid black;
             width: 60vw;
             padding-top: 3.5vh;
             .blue_video_discription{
@@ -83,7 +79,6 @@ main {
             }
         }
         .recommended_channel {
-            border: 1px solid red;
             margin-right: 4vw;
             display: flex;
             flex-direction: column;
@@ -111,5 +106,12 @@ main {
             justify-content: space-between;
             gap: 1vw;
         }
+    }
+    #MP_hide {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 130px;
+        display: none;
     }
 }

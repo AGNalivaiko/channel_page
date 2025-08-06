@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style/main.css">
     <title>Channel Page</title>
 </head>
@@ -10,8 +11,12 @@
     <div class="main_container">
         <header>
             <div class="header_left_block">
-                <img src="pic/Menu_logo.svg" width="20px" height="17px">
-                <img src="pic/youTube_logo.svg" width="116px" height="25px">
+                <img class='menu_logo'src="pic/Menu_logo.svg" width="20px" height="17px">
+                <div class="youTube_logo">
+                    <img src="pic/Logo_YT.svg">
+                    <p>YouTube</p>
+                </div>
+                <div class="Margaret_Phelps">Margaret Phelps</div>
             </div>
             <div class="header_central_block">
                 <div class="header_central_block_search">
@@ -21,10 +26,11 @@
                     </div>
                 </div>
                 <div class="header_right_block">
-                    <img src="pic/camera_logo.svg" width="27px" height="20px">
-                    <img src="pic/dotted Shape.svg" width="21px" height="21px">
-                    <img src="pic/bell_logo.svg" width="22px" height="26px">
-                    <img src="pic/user_pic.svg" width="40px" height="40px">
+                    <img class="top_hide" src="pic/camera_logo.svg" width="27px" height="20px">
+                    <img class="top_hide" src="pic/dotted Shape.svg" width="21px" height="21px">
+                    <img class="top_hide" src="pic/bell_logo.svg" width="22px" height="26px">
+                    <img class='user_pic'src="pic/user_pic.svg" width="40px" height="40px">
+                    <img id='combined_pic' src="pic/Combined Shape.svg">
                 </div>
             </div>
         </header>
@@ -109,7 +115,10 @@
                 </div>             
             </aside>
             <main>
-                <div class="main_cover"></div>
+                <div class="main_cover">
+                    <img id='MP_hide' src="pic/MG_icon.svg">
+                    <img src="pic/Cover.jpg">
+                </div>
                 <div class="main_discribeChannel">
                     <div class="channel_avatar">
                         <img src="pic/MG_icon.svg" width="80px" height="80px">
@@ -127,10 +136,10 @@
                     <p class="home_text">Home</p>
                     <p>Videos</p>
                     <p>Playlists</p>
-                    <p>Channels</p>
-                    <p>Discussion</p>
-                    <p>About</p>
-                    <img src="pic/search_logo.svg" width="19px" height="19px">
+                    <p class="hidden">Channels</p>
+                    <p class="hidden">Discussion</p>
+                    <p class="hidden">About</p>
+                    <img class='search_logo'src="pic/search_logo.svg" width="19px" height="19px">
                     <img class='arrows_down' src="pic/arrow_down.svg" width="10px" height="7px">           
                 </div>
                 <div class="main_center_block">
@@ -169,12 +178,12 @@
                         <img src="pic/Arrows.svg" width="66px" height="28px">
                     </div>
                     <div class="main_footer_videos">
-                        <img src="pic/Video_1.svg" width="250px" height="200px">
+                        <img class = 'footer_pic' src="pic/Video_1.svg" width="250px" height="200px">
                         <img src="pic/Video_2.svg" width="250px" height="200px">
                         <img src="pic/Video_3.svg" width="250px" height="200px">
-                        <img src="pic/Video_4.svg" width="250px" height="200px">
-                        <img src="pic/Video_5.svg" width="250px" height="200px">
-                        <img src="pic/Video_6.svg" width="250px" height="200px">
+                        <img class='footer_vid' src="pic/Video_4.svg" width="250px" height="200px">
+                        <img class='footer_vid' src="pic/Video_5.svg" width="250px" height="200px">
+                        <img class='footer_vid' src="pic/Video_6.svg" width="250px" height="200px">
                     </div>
                 </div>
             </main>

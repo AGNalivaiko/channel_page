@@ -5,10 +5,203 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Mulish";
 }
 
 .main_container {
     max-width: 1920px;
     max-height: 1200px;
-    border: 1px solid black;
+}
+
+@media(max-width: 1340px) {
+    .blue_video {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main .main_center_block .blue_video .blue_video_discription p {
+        padding-bottom: 2%;
+    }
+    main {
+        padding-left: 3vw;
+    }
+    
+}
+@media(max-width:1200px) {
+    .menu_logo {
+        display: none;
+    }
+    aside .aside_subscription h2{
+        font-size: 12px;
+    }
+    aside p {
+        font-size: 12px;
+    }
+    header {
+        padding-right: 5vw;
+        padding-left: 1vw;
+    }
+    header .header_left_block .youTube_logo p{
+        font-size: 18px;
+    }
+    header .header_left_block .youTube_logo img{
+        width: 37px;
+        height: 25px;
+    }
+}
+@media(max-width: 945px) {
+    main .main_center_block {
+        flex-direction: column;
+    }
+    aside div {
+        display: flex;
+        flex-direction: column;
+    }
+    .hidden,
+    .search_logo {
+        display: none;
+    }
+    main .main_navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main .main_navigation .arrows_down{
+        display: block;
+    }
+    main .main_center_block .recommended_channel {
+        margin-top: 1vh;
+    }
+}
+@media(max-width: 890px) {
+    .search{
+        width: 10px;
+    }
+    header {
+        padding-left: 3%;
+        padding-right: 10%;
+    }
+}
+@media(max-width: 760px) {
+    aside .aside_subscription{
+        display: none;
+    }
+    aside .aside_menu .history,
+    aside .aside_menu .Watch_later,
+    aside .aside_menu .favourites,
+    aside .aside_menu .liked_videos,
+    aside .aside_menu .music,
+    aside .aside_menu .games,
+    aside .aside_menu .show_more,
+    main .main_center_block,
+    main .main_footer .main_footer_text,
+    .ring_pic {
+        display: none;
+    }
+    main .main_discribeChannel .channel_avatar {       
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1vh;
+    }
+    main .main_footer {
+        margin-top: 1vh;
+    }
+    .main_discribeChannel {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+    }
+    .center_container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside .aside_menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    header .header_left_block {
+        padding-right: 3vw;
+        padding-left: 3vw;
+    }
+    header .header_central_block{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    header .header_central_block .header_right_block {
+        .top_hide{display: none;}
+    }
+    header .header_central_block .header_right_block #combined_pic {
+        display: block;
+    }   
+}
+@media(max-width: 440px) {  
+    main .main_navigation{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+    .footer_vid,
+    header .header_left_block .youTube_logo p {
+        display: none;
+    }
+    .aside_menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    main .main_footer_videos img {
+        width: 100%;
+        margin-left: 5vw;
+    }
+    main .main_discribeChannel .channel_avatar img {
+        display: none;
+    }
+    .main_cover #MP_hide {
+        display: block;
+    }
+    .main_discribeChannel {
+        margin-top: 2vh;
+    }
+    main .main_cover {
+        width: 1000px;
+    }
+    main .main_cover img {
+        width: 100vw;
+    }
+    main {padding: 2px;}
+    .main_discribeChannel {
+        padding-left: 20px;
+    }
+    input {display: none;}
+    header .header_central_block .header_central_block_search .search_block{
+        width: 1px;
+    }
+    header .header_central_block{
+        display: flex;
+        justify-content: flex-end;
+        gap: 10vw;
+    }
+    header .header_left_block .Margaret_Phelps{
+        display: block;
+    }
+    header .header_left_block .youTube_logo p{
+        display: none;
+    }
+    .user_pic {
+        display: none;
+    }
+    header .header_central_block {
+        margin-left: 65vw;
+    }
+    main .main_footer_videos {
+        margin-bottom: 1vh;
+    }
+    main {
+        width: 100%;
+    }
+    main .main_footer_videos .footer_pic {
+        width: 100w;
+    }
 }

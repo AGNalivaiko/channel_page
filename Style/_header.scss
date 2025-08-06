@@ -4,6 +4,17 @@ header {
     display: flex;
 
     .header_left_block {
+        .youTube_logo{
+            display: flex;
+            align-items: center;
+            gap: 0.2vw;
+            p{font-size: 23px; font-weight: bold;}
+        }
+        .Margaret_Phelps{
+            position: absolute;
+            left: 60px;
+            display: none;
+        }
         min-height: 90px;
         width: 12vw;
         display: flex;
@@ -46,6 +57,7 @@ header {
             justify-content: flex-start;
             padding-left: 1vw;
             gap: 2vw;
+            #combined_pic{display: none;}
         }
     }
 }
